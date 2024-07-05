@@ -34,3 +34,4 @@
 ### More Resources:
 
 1. **Clean Code:** [How to write clean code](CleanCode.pdf)
+2. **Last year class:** [Summer 2023](https://github.com/amirih/cs171-lab-sum2023)
