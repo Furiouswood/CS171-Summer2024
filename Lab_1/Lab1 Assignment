@@ -1,0 +1,193 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Course course = new Course("Math", "101", "4");
+        Student student = new Student("Henry", "123456", "CS");
+        Teacher teacher = new Teacher("John", "098765", "CS");
+        Department department = new Department("CS", "66666");
+        University university = new University("Atl", "Emory" );
+
+        // Print information for each object
+        course.printInfo();
+        student.printInfo();
+        teacher.printInfo();
+        department.printInfo();
+        university.printInfo();
+    }
+}
+    class Course {
+        // instance variables
+        String courseName;
+        String courseCode;
+        String courseCredit;
+        // object instantiation
+        public Course(String courseName, String courseCode, String courseCredit){
+
+            this.courseName = courseName;
+            this.courseCode = courseCode;
+            this.courseCredit = courseCredit;
+        }
+
+        public String getName(){
+            return courseName;
+        }
+        public String getID(){
+            return courseCode;
+        }
+        public String getCredit(){
+            return courseCredit;
+        }
+        public void setCourse(String name){
+            this.courseName = name;
+        }
+        public void setCode(String code){
+            this.courseCode = code;
+        }
+        public void setCredit(String Credit){
+            this.courseCredit = Credit;
+        }
+        public void printInfo(){
+            System.out.println("Course name: " + courseName);
+            System.out.println("Course code: "  + courseCode);
+            System.out.println("Course credit: " + courseCredit);
+        }
+
+
+    }
+    class Student {
+
+        private String studentName;
+        private String studentID;
+        private String studentDepartment;
+
+        public Student(String studentName, String studentID, String studentDepartment){
+            this.studentName = studentName;
+            this.studentID = studentID;
+            this.studentDepartment = studentDepartment;
+        }
+        public String getName(){
+            return studentName;
+        }
+        public String getID(){
+            return studentID;
+        }
+        public String getDepartment(){
+            return studentDepartment;
+        }
+        public void setName(String name){
+            this.studentName = name;
+        }
+        public void setId(String ID){
+            this.studentID = ID;
+        }
+        public void setDepartment(String department){
+            this.studentDepartment = department;
+        }
+        public void printInfo(){
+            System.out.println("Student name: " + studentName);
+            System.out.println("Student ID: "  + studentID);
+            System.out.println("Student department: " + studentDepartment);
+        }
+
+
+    }
+
+    class Teacher{
+
+        String teacherName;
+        String teacherId;
+        String teacherDepartment;
+
+        public Teacher(String teacherName, String teacherID, String teacherDepartment){
+            this.teacherName = teacherName;
+            this.teacherId = teacherID;
+            this.teacherDepartment = teacherDepartment;
+        }
+
+        public String getName(){
+            return teacherName;
+        }
+        public String getID(){
+            return teacherId;
+        }
+        public String getDepartment(){
+            return teacherDepartment;
+        }
+        public void setName(String name){
+            this.teacherName = name;
+        }
+        public void setId(String ID){
+            this.teacherId = ID;
+        }
+        public void setDepartment(String department){
+            this.teacherDepartment = department;
+        }
+        public void printInfo(){
+            System.out.println("Teacher's name: " + teacherName);
+            System.out.println("Teacher's ID: "  + teacherId);
+            System.out.println("Teacher's department: " + teacherDepartment);
+        }
+    }
+
+    class Department{
+
+        String departmentName;
+        String departmentCode;
+
+        public Department(String departmentName, String departmentCode){
+
+            this.departmentName = departmentName;
+            this.departmentCode = departmentCode;
+        }
+
+        public String getName(){
+            return departmentName;
+        }
+        public String getCode(){
+            return departmentCode;
+        }
+        public void setDepartment(String name){
+            this.departmentName = name;
+        }
+        public void setCode(String Code){
+            this.departmentCode = Code;
+        }
+
+        public void printInfo(){
+            System.out.println("Department name: " + departmentName);
+            System.out.println("Department Code: "  + departmentCode);
+        }
+    }
+
+    class University{
+
+        String universityName;
+        String universityLocation;
+
+        public University(String universityLocation, String universityName){
+
+            this.universityLocation = universityLocation;
+            this.universityName = universityName;
+        }
+
+        public String getName(){
+            return universityName;
+        }
+        public String getLoc(){
+            return universityLocation;
+        }
+        public void Uni(String name){
+            this.universityName = name;
+        }
+        public void Loc(String location){
+            this.universityLocation = location;
+        }
+
+        public void printInfo(){
+            System.out.println("University name: " + universityName);
+            System.out.println("University location: "  + universityLocation);
+        }
+
+
+    }
+
