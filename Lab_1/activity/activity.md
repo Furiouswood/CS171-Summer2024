@@ -12,7 +12,7 @@
 
 - implement main class which has main method to test the above classes in each of the classes. In other words, create object of course, student, teacher, department, university and print the information of each object.
 
-- make a reasonable use of the objects in the main method of the PracticeNow.java file. A reasonable use is to show that you understand how to create objects of the classes and how to use the objects to access the instance variables and methods of the classes, etc. (you already have an example of this in the [PracticeNow.java](Lab_1/activity/PracticeNow.java) file).
+- make a reasonable use of the objects in the main method of the PracticeNow.java file. A reasonable use is to
 
 ## Submission:
 
