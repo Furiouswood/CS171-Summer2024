@@ -1,0 +1,68 @@
+public class Boat extends Vehicle{
+
+    private double maxSpeed = 100;
+    private double maxPassengers;
+    private double speed;
+    public Boat(String brand, String model, int year, String color, double speed){
+        super(brand, model, year, color);
+        this.speed = speed;
+    }
+
+    public Boat(){
+        super();
+}
+    public double getSpeed(){
+        return speed;
+    }
+
+    public String getColor(){
+        return color;
+    }
+
+    public String getBrand(){
+        return brand;
+    }
+
+    public String getModel(){
+        return model;
+    }
+
+    public int getYear(){
+        return year;
+    }
+
+    public void printInfo(){
+        super.display();
+    }
+    public void speedingTester(double speed){
+        if(speed > maxSpeed){
+            System.out.println("this boat is speeding");
+        }else{
+            System.out.println("this boat is not speeding");
+        }
+    }
+
+    public void accelerator(){
+        super.accelerate();
+    }
+
+    public void decelerator(){
+        super.decelerate();
+    }
+
+    public void move(){
+        super.move();
+    }
+
+    public void turnLeft(){
+        super.turnLeft();
+    }
+
+    public void turnRight(){
+        super.turnRight();
+    }
+
+
+
+
+}
