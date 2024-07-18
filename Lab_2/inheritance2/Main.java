@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Type: Car, Instanced: Car ");
-        Car car = new Car();
-        car.move();
+
+        System.out.println(Car.MAGIC_NUMBER);
 
         System.out.println("-----------------------------");
         System.out.println("Type: vehicle, Instanced: Car ");

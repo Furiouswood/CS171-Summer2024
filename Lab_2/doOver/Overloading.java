@@ -62,11 +62,11 @@ public class Overloading {
         System.out.println("String: " + string + ", Double: " + doubleNumber + ", Integer: " + integerNumber);
     }
 
-    // This method will not compile because it has the same signature as the first
-    // public int print(int integerNumber) {
-    // System.out.println("Integer: " + integerNumber);
-    // return integerNumber;
-    // }
+//     This method will not compile because it has the same signature as the first
+     public int print2(int integerNumber) {
+     System.out.println("Integer: " + integerNumber);
+     return integerNumber;
+     }
 
     public static void main(String[] args) {
         Overloading overloading = new Overloading();

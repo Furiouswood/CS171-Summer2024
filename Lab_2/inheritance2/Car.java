@@ -8,7 +8,7 @@ public class Car extends Vehicle {
     private int fuelCapacity;
     private int fuelConsumption;
     private int mileage;
-    private final static int MAGIC_NUMBER = 100;
+    public final static int MAGIC_NUMBER = 100;
 
     public Car(String brand, String model, int year, String color, double maxSpeed) {
         super(brand, model, year, color);

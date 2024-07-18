@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Type: Superclass, Instanced: Subclass ");
         Superclass subclassInSuperclass = new Subclass();
         subclassInSuperclass.superClassMethod();
-        // subclassInSuperclass.subClassMethod();
+//         subclassInSuperclass.subClassMethod();
 
         System.out.println("-----------------------------");
         System.out.println("Type: Subsubclass, Instanced: Subsubclass ");
