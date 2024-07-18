@@ -1,0 +1,28 @@
+public class Main {
+        public static void main(String[] args) {
+            // Creating Boat with no arguments
+            System.out.println("Creating Boat with no arguments:");
+            Boat boat1 = new Boat();
+            boat1.printInfo();
+            boat1.speedingTester(120);
+            boat1.accelerator();
+            boat1.decelerator();
+            boat1.move();
+            boat1.turnLeft();
+            boat1.turnRight();
+
+            System.out.println();
+
+            // Creating Boat with parameters
+            System.out.println("Creating Boat with parameters:");
+            Boat boat2 = new Boat("Yamaha", "FX Cruiser", 2021, "Blue", 50.0);
+            boat2.printInfo();
+            boat2.speedingTester(120);
+            boat2.accelerator();
+            boat2.decelerator();
+            boat2.move();
+            boat2.turnLeft();
+            boat2.turnRight();
+        }
+
+}
