@@ -3,6 +3,8 @@ package Lab_3.BookAPI;
 class Main {
 
     public static void main(String[] args) {
+        // the following code is an mock example which gives you an idea of getting a
+        // book from an API and using it in your application
         BookAPI bookAPI = new BookAPI();
         String id = "1"; // In a real application, this might be input by the user
 

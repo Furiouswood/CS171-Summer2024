@@ -19,17 +19,23 @@
 1. **Lab_3:** [Interfaces and Abstract Classes](Lab_3)
 1. **A2:** [Practice the second assignment's starter code](A2)
 
+**Week's assignment can be found in [activity](Lab_3/activity) folder.**
+
 ### Week 4:
 
 1. **Lab_4:** [Generics and ArrayList](Lab_4)
 1. **Lab_5:** [Stacks and Queues](Lab_5)
 1. **A3:** [Practice the third assignment's starter code](A3)
 
+**Week's assignment can be found in [activity](Lab_5/activity) folder.**
+
 ### Week 5:
 
 1. **Lab_6:** [Linked Lists](Lab_6)
 1. **Lab_7:** [Sorting Algorithms](Lab_7)
 1. **A4:** [Practice the fourth assignment's starter code](A4)
+
+**Week's assignment can be found in [activity](Lab_6/activity) folder.**
 
 ### More Resources:
 
