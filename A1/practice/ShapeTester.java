@@ -2,7 +2,7 @@ package A1.practice;
 
 public class ShapeTester {
     public ShapeTester() {
-
+int a = 10;
     }
 
     // public static void compareShapes( Rectangle rectangle, Circle circle){

@@ -55,6 +55,7 @@ public class Vehicle {
     }
 
     public void display() {
+
         System.out.println("Brand: " + brand);
         System.out.println("Model: " + model);
         System.out.println("Year: " + year);

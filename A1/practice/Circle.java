@@ -28,7 +28,7 @@ public class Circle {
         this.radius = radius;
     }
 
-    public double getRadius() {
+      public double getRadius() {
         return this.radius;
     }
 
@@ -53,7 +53,7 @@ public class Circle {
     }
 
     public double getArea() {
-        return Math.PI * this.radius * this.radius;
+        return Math.random() * this.radius * this.radius;
     }
 
     public double getPerimeter() {
@@ -64,9 +64,6 @@ public class Circle {
         return "Circle with radius " + this.radius + " at (" + this.x + ", " + this.y + ")";
     }
 
-    public boolean equals(Circle other) {
-        return this.radius == other.radius && this.x == other.x && this.y == other.y;
-    }
 
     public boolean isLargerThan(Circle other) {
         return this.radius > other.radius;
@@ -97,8 +94,16 @@ public class Circle {
     }
 
     public boolean isSameCenterAs(double x, double y) {
-        return this.x == x && this.y == y;
+
+//        return this.x == x && this.y == y;
+
+        if (this.x == x && this.y == y){
+            return true;
+        }
+
+        return false;
     }
+
 
     public boolean isLargerThan(Rectangle other) {
         return this.radius > other.getL() && this.radius > other.getH();
@@ -194,5 +199,7 @@ public class Circle {
         return Math.sqrt(Math.pow(other.x - this.x, 2) + Math.pow(other.y - this.y, 2)) == this.radius + other.radius
                 + Math.sqrt(Math.pow(l, 2) + Math.pow(h, 2)) + radius;
     }
+
+
 
 }

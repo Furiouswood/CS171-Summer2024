@@ -1,0 +1,12 @@
+package Lab_3.DataBase;
+
+public interface Transaction {
+    // Method to start a transaction
+    void startTransaction();
+
+    // Method to commit a transaction
+    void commit();
+
+    // Method to rollback a transaction
+    void rollback();
+}

@@ -24,6 +24,7 @@ public class BasicExample {
         System.out.println(e.getName());
         e.setName("Jane");
         e.sayName();
+        System.out.println(e.name);
     }
 
 }
