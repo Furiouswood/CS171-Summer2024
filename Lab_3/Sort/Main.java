@@ -1,11 +1,9 @@
 package Lab_3.Sort;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
         // Create a BubbleSort object
-        CSort bubbleSort = new CSort();
+        BubbleSort bubbleSort = new BubbleSort();
         // Define an array to sort
         int[] array = { 5, 3, 8, 4, 2 };
 
