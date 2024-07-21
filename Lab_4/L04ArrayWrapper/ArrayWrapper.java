@@ -1,4 +1,4 @@
-package Lab_4.ArrayWrapper;
+package Lab_4.L04ArrayWrapper;
 
 public class ArrayWrapper<T> {
     private T[] array;

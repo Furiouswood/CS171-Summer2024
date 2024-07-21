@@ -1,4 +1,4 @@
-package Lab_4.Boxing;
+package Lab_4.L01Boxing;
 
 public class Numbers {
 

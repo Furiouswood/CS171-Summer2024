@@ -1,4 +1,4 @@
-package Lab_4.Generics;
+package Lab_4.L02Generics;
 
 class SimpleBox<ReasonableText> {
     private ReasonableText t;

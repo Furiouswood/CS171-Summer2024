@@ -1,4 +1,4 @@
-package Lab_4.ArrayWrapper;
+package Lab_4.L04ArrayWrapper;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,6 +29,5 @@ public class Main {
         System.out.println("Second element in string array: " + strArrayWrapper.getElement(1));
         System.out.println("String array[0]: " + strArrayWrapper.getArray()[0]);
         System.out.println("String array[1]: " + strArrayWrapper.getArray()[1]);
-
     }
 }

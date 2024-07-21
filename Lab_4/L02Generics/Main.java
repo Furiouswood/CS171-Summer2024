@@ -1,4 +1,4 @@
-package Lab_4.Generics;
+package Lab_4.L02Generics;
 
 public class Main {
 

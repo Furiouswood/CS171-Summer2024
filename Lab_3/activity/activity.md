@@ -7,3 +7,5 @@
 - implement another Sort class; e.g. `QuickSort`; You can use the [Lab_3/Sort/BubbleSort.java](Lab_3/Sort/BubbleSort.java) as a template. You **cannot** extend the `BubbleSort` class. You should extends `SortAlgorithm` and implements `ArrayPrinter` interface.
 
 Since the purpose of this activity is to help you in understanding the concepts and design the classes, you can add any additional methods, fields, or interfaces to make it more useful to implement the classes. You can also add additional classes if needed.
+
+**UPDATE**: Please make sure to submit the link to your repository containing the code for the above classes on Canvas for Week 3 Activity.
