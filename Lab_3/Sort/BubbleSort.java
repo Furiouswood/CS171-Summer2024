@@ -36,6 +36,8 @@ public class BubbleSort extends SortAlgorithm implements ArrayPrinter {
     @Override
     public void doMagic() {
         // TODO Auto-generated method stub
+        // This was answer to a question in the class. You don't need to do anything with this method. 
+        // However, you can be  creative! Do any magic you want on the sort algorithm. 
         throw new UnsupportedOperationException("Unimplemented method 'doMagic'");
     }
 }
