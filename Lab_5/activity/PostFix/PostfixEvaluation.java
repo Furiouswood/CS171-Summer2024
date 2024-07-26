@@ -12,8 +12,11 @@ public class PostfixEvaluation {
     }
 
     public static void main(String[] args) {
+        /*
+         * Stack: 6
+         */
         String expression = "5 2 4 * + 7 -";
         System.out.println("Postfix expression: " + expression);
-        System.out.println("Evaluation result: " + evaluatePostfix(expression)); // Outputs 7
+        System.out.println("Evaluation result: " + evaluatePostfix(expression)); // Outputs 6
     }
 }

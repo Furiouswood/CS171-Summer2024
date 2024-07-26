@@ -5,7 +5,7 @@ import java.util.Stack;
 public class Main {
     public static void main(String[] args) {
         // Creating a Stack
-        Stack<String> stack = new Stack<String>();
+        Stack<String> stack = new Stack<>();
 
         // Adding items to the Stack
         stack.push("Java");
