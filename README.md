@@ -31,13 +31,20 @@
 
 ### Week 5:
 
-1. **Lab_6:** [Linked Lists](Lab_6)
-1. **Lab_7:** [Sorting Algorithms](Lab_7)
+**We have one session this week on Friday August 2nd, 2024.**
+
 1. **A4:** [Practice the fourth assignment's starter code](A4)
+1. **Lab_6:** [Linked Lists](Lab_6)
 
 **Week's assignment can be found in [activity](Lab_6/activity) folder.**
 
+### Week 6:
+
+**We have one session this week on Monday August 5th, 2024.**
+
+1. **Lab_7:** [Sorting Algorithms](Lab_7) (Monday)
+1. **Clean Code:** [How to write clean code](CleanCode.pdf)
+
 ### More Resources:
 
-1. **Clean Code:** [How to write clean code](CleanCode.pdf)
 2. **Last year class:** [Summer 2023](https://github.com/amirih/cs171-lab-sum2023)

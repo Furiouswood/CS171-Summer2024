@@ -1,7 +1,7 @@
 package Lab_3.Sort;
 
 public class BubbleSort extends SortAlgorithm implements ArrayPrinter {
-    @Override
+    // @Override
     public void printArray(int[] array) {
         for (int i = 0; i < array.length; ++i)
             System.out.print(array[i] + " ");
@@ -23,7 +23,21 @@ public class BubbleSort extends SortAlgorithm implements ArrayPrinter {
     }
 
     @Override
+    public void swap(int[] array, int i, int j) {
+        super.swap(array, i, j);
+        System.out.println("Swapping " + array[i] + " and " + array[j]);
+    }
+
+    @Override
     public String getName() {
         return "Bubble Sort";
+    }
+
+    @Override
+    public void doMagic() {
+        // TODO Auto-generated method stub
+        // This was answer to a question in the class. You don't need to do anything with this method. 
+        // However, you can be  creative! Do any magic you want on the sort algorithm. 
+        throw new UnsupportedOperationException("Unimplemented method 'doMagic'");
     }
 }

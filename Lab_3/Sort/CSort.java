@@ -28,4 +28,10 @@ public class CSort extends SortAlgorithm implements ArrayPrinter {
     public String getName() {
         return "CSort";
     }
+
+    @Override
+    public void doMagic() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'doMagic'");
+    }
 }
